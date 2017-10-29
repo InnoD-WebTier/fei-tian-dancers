@@ -2,3 +2,36 @@
 // Then import those files here. 
 // This scss file will be compiled to index.css.
 // index.css is imported in index.js and will apply styles to everything.
+
+$red_theme: #9b1919;
+$white: #ffffff;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.side_menu {
+    position: fixed;
+    width: 300px;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        li {
+            border-bottom: 1px solid #ddd;
+            a {
+                text-decoration: none;
+                div {
+                    color: $white;
+                    padding: 20px;
+                    background-color: $red_theme;
+                    font-size: 18px;
+                }
+                div:hover {
+                    background-color: #aa3c3c;
+                }
+            }
+        }
+    }
+}
