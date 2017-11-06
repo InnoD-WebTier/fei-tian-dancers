@@ -1,20 +1,24 @@
-nav {
+.ftd-logo {
+  height: 100px;
+}
+
+ul {
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 50px;
-}
-
-.logo {
-  height: 100px;
-}
-
-.ftd-logo {
-  height: inherit;
+  margin: 10px 30px;
 }
 
 .menu {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+
+  li {
+    margin: 0 20px;
+  }
 
 }
 
