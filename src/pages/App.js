@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
-import Media from './Media';
+import MultiMedia from './multimedia/Multimedia.js';
 import Members from './Members';
 import { Switch, Route } from 'react-router-dom'
 // A base file for all your pages to come together.
@@ -11,7 +11,7 @@ const Main = () => (
         <Switch>
             <Route exact path='/' component={Home}/>
             <Route path='/members' component={Members}/>
-            <Route path='/media' component={Media}/>
+            <Route path='/media' component={MultiMedia}/>
         </Switch>
     </main>
 

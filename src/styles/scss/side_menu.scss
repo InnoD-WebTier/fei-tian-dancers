@@ -1,0 +1,39 @@
+$red_theme: #9b1919;
+$white: #ffffff;
+
+.menu-container {
+    width: 400px;
+    top: 70px;
+    left: 0;
+
+    .side-menu-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: 0;
+            padding: 0;
+            border-bottom: 1px solid #ddd;
+
+            a {
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+    
+                .side-menu-item {
+                    margin: 0;
+                    padding: 0;
+                    color: $white;
+                    text-transform: uppercase;
+                    padding: 20px;
+                    background-color: $red_theme;
+                    font-size: 18px;
+                }
+                .side-menu-item:hover {
+                    background-color: #aa3c3c;
+                }
+            }
+        }
+    }
+}
