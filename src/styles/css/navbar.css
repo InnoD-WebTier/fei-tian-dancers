@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,800");
+* {
+  font-family: "Raleway", "serif"; }
+
+nav {
+  height: 64px;
+  position: relative; }
+
+.ftd-logo {
+  height: 60px; }
+
+ul {
+  list-style-type: none;
+  margin: 10px 30px; }
+
+.logo {
+  position: absolute;
+  left: 0;
+  margin-left: 30px; }
+
+.menu {
+  margin: 20px 30px;
+  position: absolute;
+  right: 0; }
+  .menu li {
+    display: inline;
+    margin: 0 20px; }
+
+a {
+  text-decoration: none;
+  margin: 0 10px; }
+
+a:visited {
+  color: inherit; }
+
+a:active {
+  color: darkred; }
