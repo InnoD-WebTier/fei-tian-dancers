@@ -1,0 +1,9 @@
+$red_theme: #9b1919;
+$white: #ffffff;
+
+.page-header {
+    text-align: center;
+    width: 130px;
+    margin-left: calc(50% - 65px);
+    border-bottom: 2px solid $red_theme;
+}
