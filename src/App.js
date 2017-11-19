@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
-import Home from './Home';
-import MultiMedia from './multimedia/Multimedia.js';
-import Members from './members/Members.js';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import MultiMedia from './pages/Multimedia.js';
+import Members from './pages/Members.js';
 import { Switch, Route } from 'react-router-dom'
 // A base file for all your pages to come together.
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import PageHeader from '../PageHeader.js';
-import PageDescription from '../PageDescription.js';
-import SideMenu from './SideMenu.js';
+import PageHeader from './PageHeader.js';
+import PageDescription from './PageDescription.js';
+import SideMenu from '../components/SideMenu.js';
 
 export default class Multimedia extends React.Component {
     render() {
