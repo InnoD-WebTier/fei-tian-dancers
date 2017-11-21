@@ -1,5 +1,6 @@
 .menu-container {
   width: 25%;
+  min-width: 200px;
   margin-right: 10px; }
   .menu-container .side-menu-bar {
     list-style-type: none;
