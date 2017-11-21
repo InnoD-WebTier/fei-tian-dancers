@@ -1,7 +1,12 @@
+// Components
 import React from 'react';
-import PageHeader from '../PageHeader.js';
-import PageDescription from '../PageDescription.js';
-import SideMenu from './SideMenu.js';
+import PageHeader from '../PageHeader';
+import PageDescription from '../PageDescription';
+import SideMenu from './SideMenu';
+import Performance from './Performance';
+
+// Styles
+import '../../styles/css/multimedia.css';
 
 export default class Multimedia extends React.Component {
     render() {
@@ -11,7 +16,10 @@ export default class Multimedia extends React.Component {
             <div>
                 <PageHeader title={title}></PageHeader>
                 <PageDescription description={description}></PageDescription>
-                <SideMenu></SideMenu>
+                <div className='page-container'>
+                    <SideMenu></SideMenu>
+                    <Performance></Performance>
+                </div>
             </div>
         )
     }
