@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../assets/feitiandancerslogo.jpg';
 import '../styles/css/navbar.css';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 class Navbar extends Component {
 
@@ -10,12 +10,12 @@ class Navbar extends Component {
             <nav>
                 <ul>
                     <div className="logo">
-                        <li><Link to="/"><img src={logo} className="ftd-logo" alt="logo" /></Link></li>
+                        <li><NavLink to="/"><img src={logo} className="ftd-logo" alt="logo" /></NavLink></li>
                     </div>
 
                     <div className="menu">
-                        <li><Link to="/members">Members</Link></li>
-                        <li><Link to="/media">Multimedia</Link></li>
+                        <li><NavLink to="/members" activeClassName="selected">Members</NavLink></li>
+                        <li><NavLink to="/media" activeClassName="selected">Multimedia</NavLink></li>
                     </div>
 
                 </ul>
