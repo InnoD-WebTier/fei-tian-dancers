@@ -47,3 +47,59 @@
 .photogrid {
   margin-left: 5%;
   padding-top: 3%; }
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #FFFFFF;
+  color: #333333;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 5%; }
+
+.photogrid {
+  margin-left: 5%;
+  padding-top: 3%; }
+
+h1 {
+  font-weight: lighter; }
+
+a {
+  font-weight: 500; }
+  a:link, a:visited {
+    background-image: -webkit-linear-gradient(-45deg, #444444 0%, #444444 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+#red-underline {
+  background-color: #db5757;
+  height: 2px;
+  justify-content: center; }
+
+.cover {
+  padding-top: 5%; }
+
+.header {
+  display: inline;
+  text-align: center;
+  justify-content: center;
+  width: 30%; }
+
+.faq {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #e2e2e2; }
+
+.faq-text {
+  display: flex;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #e2e2e2; }
+
+.about {
+  display: flex;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%; }
