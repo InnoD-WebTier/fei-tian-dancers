@@ -1,13 +1,64 @@
 .home {
     .cover {
         width: 100%;
-        max-height: 770px;
+        max-height: 700px;
         object-fit: cover;
     }
 
     .about, .join, .contact {
-        width: 90%;
-        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
         line-height: 1.4;
+    }
+    
+    .about { color: #4F4F4F; }
+
+    .join {
+        background: rgba(33, 2, 2, 0.02);
+        
+        .join__title {
+            font-size: 24px;
+            color: #9B1919;
+            margin-bottom: 15px;
+        }
+
+        .join__subtitle {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .join__text {
+            margin-bottom: 15px;
+        }
+    }
+
+    .contact {
+        text-align: center;
+        
+        .contact__icons {
+            display: inline-block;
+            height: 25px;
+            margin-top: 20px;
+            
+            .facebook, .youtube, .mail { 
+                height: 100%; 
+                width: auto; 
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+
+        .contact__text {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 18px;
+
+            .email {
+                color: rgba(121, 0, 0, 0.3);
+                text-decoration: underline;
+            }
+        }
     }
 }

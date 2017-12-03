@@ -93,13 +93,49 @@
 
 .home .cover {
   width: 100%;
-  max-height: 770px;
+  max-height: 700px;
   object-fit: cover; }
 
 .home .about, .home .join, .home .contact {
-  width: 90%;
-  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
   line-height: 1.4; }
+
+.home .about {
+  color: #4F4F4F; }
+
+.home .join {
+  background: rgba(33, 2, 2, 0.02); }
+  .home .join .join__title {
+    font-size: 24px;
+    color: #9B1919;
+    margin-bottom: 15px; }
+  .home .join .join__subtitle {
+    font-size: 18px;
+    font-weight: 600; }
+  .home .join .join__text {
+    margin-bottom: 15px; }
+
+.home .contact {
+  text-align: center; }
+  .home .contact .contact__icons {
+    display: inline-block;
+    height: 25px;
+    margin-top: 20px; }
+    .home .contact .contact__icons .facebook, .home .contact .contact__icons .youtube, .home .contact .contact__icons .mail {
+      height: 100%;
+      width: auto;
+      margin-left: 10px;
+      margin-right: 10px; }
+  .home .contact .contact__text {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px; }
+    .home .contact .contact__text .email {
+      color: rgba(121, 0, 0, 0.3);
+      text-decoration: underline; }
 
 html, body {
   margin: 0;
