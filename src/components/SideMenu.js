@@ -1,4 +1,5 @@
 import React from 'react';
+import { StickyContainer, Sticky } from 'react-sticky';
 import '../styles/css/side_menu.css';
 
 export default class SideMenu extends React.Component {
@@ -15,8 +16,8 @@ export default class SideMenu extends React.Component {
             ['small & solo dances', 'http://example.com/']
         ]
         const listItems = menus.map((menu) => <li><a href={menu[1]}><div className='side-menu-item'>{menu[0]}</div></a></li>)
-        return(
-            <div className='menu-container'>
+        return (
+            <div className="menu-container">
                 <ul className='side-menu-bar'>
                     {listItems}
                 </ul>

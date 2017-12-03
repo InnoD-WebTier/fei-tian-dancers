@@ -1,7 +1,8 @@
 .menu-container {
-  width: 400px;
-  top: 70px;
-  left: 0; }
+  width: 25%;
+  background-color: #9b1919;
+  height: 100%;
+  float: left; }
   .menu-container .side-menu-bar {
     list-style-type: none;
     margin: 0;

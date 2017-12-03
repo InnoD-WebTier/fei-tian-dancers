@@ -3,3 +3,10 @@
 // This scss file will be compiled to index.css.
 // index.css is imported in index.js and will apply styles to everything.
 @import "PhotoGrid.scss";
+@import "section.scss";
+@import "Home.scss";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}

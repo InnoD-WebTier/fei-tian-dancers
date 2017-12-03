@@ -6,19 +6,12 @@
 
 nav {
   height: 64px;
-  position: relative;
   width: 100%;
-  box-shadow: 0px 15px 10px -15px #111;
-  margin-bottom: 3%;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
 }
 
 .ftd-logo {
   height: 60px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 10px 30px;
 }
 
 .logo {
@@ -31,11 +24,6 @@ ul {
   margin: 20px 30px;
   position: absolute;
   right: 0;
-
-  li {
-    display: inline;
-    margin: 0 20px;
-  }
 
 }
 

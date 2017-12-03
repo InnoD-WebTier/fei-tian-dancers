@@ -2,9 +2,10 @@ $red_theme: #9b1919;
 $white: #ffffff;
 
 .menu-container {
-    width: 400px;
-    top: 70px;
-    left: 0;
+    width: 25%;
+    background-color: $red_theme;
+    height: 100%;
+    float: left;
 
     .side-menu-bar {
         list-style-type: none;

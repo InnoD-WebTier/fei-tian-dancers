@@ -1,7 +1,6 @@
 .photo__container {
   position: relative;
   width: 30%;
-  height: 400px;
   display: inline-block;
   margin-right: 2%;
   vertical-align: top;
@@ -34,9 +33,8 @@
     display: block;
     position: relative;
     width: 80%;
-    float: center;
     margin: 0 auto;
-    padding-bottom: 3%; }
+    margin-bottom: 3%; }
   .photo__container .photo__name {
     position: relative;
     text-align: center;
@@ -46,4 +44,4 @@
 
 .photogrid {
   margin-left: 5%;
-  padding-top: 3%; }
+  padding-top: 1.5%; }

@@ -8,17 +8,14 @@ class Navbar extends Component {
     render() {
         return (
             <nav>
-                <ul>
-                    <div className="logo">
-                        <li><NavLink to="/"><img src={logo} className="ftd-logo" alt="logo" /></NavLink></li>
-                    </div>
+                <div className="logo">
+                    <NavLink to="/"><img src={logo} className="ftd-logo" alt="logo" /></NavLink>
+                </div>
 
-                    <div className="menu">
-                        <li><NavLink to="/members" activeClassName="selected">Members</NavLink></li>
-                        <li><NavLink to="/media" activeClassName="selected">Multimedia</NavLink></li>
-                    </div>
-
-                </ul>
+                <div className="menu">
+                    <NavLink to="/members" activeClassName="selected">Members</NavLink>
+                    <NavLink to="/media" activeClassName="selected">Multimedia</NavLink>
+                </div>
             </nav>
 
         );
