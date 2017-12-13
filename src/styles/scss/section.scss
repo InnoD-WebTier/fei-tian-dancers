@@ -23,6 +23,7 @@
     .section__description {
         margin-top: 10px;
         height: 315px; 
+        padding-bottom: 10px;
 
         .section__description--text {
             width: calc(40% - 15px);
@@ -46,7 +47,6 @@
 
     .section__photos {
         clear: both;
-        margin-top: 10px;
 
         .section__photos--photo {
             display: inline-block;
@@ -57,6 +57,23 @@
                 margin-left: 10px;
                 margin-right: 10px;
             }
+        }
+    }
+
+    @media(max-width: 768px) {
+        padding-top: 0;
+
+        .section__description {
+            height: auto;
+
+            .section__description--text, .section__description--video {
+                width: 100%;
+                float: none;
+                display: block;
+            }
+            
+            .section__description--text { padding-bottom: 10px; }
+            .section__description--video { min-height: 275px; margin: 0; }
         }
     }
 }

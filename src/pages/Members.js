@@ -7,7 +7,7 @@ class Members extends Component {
     render() {
     	const title = 'Our Team';
         return (
-            <div>
+            <div className="members container">
             	<PageHeader title={title}></PageHeader>
             	<PhotoGrid/>
             </div>

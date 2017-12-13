@@ -56,3 +56,11 @@
         .section .section__description .section__description--video {
           min-height: 275px;
           margin: 0; } }
+
+@media (max-width: 768px) {
+  .multimedia .menu-container {
+    display: none; }
+  .multimedia .section {
+    display: block;
+    width: 100%;
+    float: none; } }

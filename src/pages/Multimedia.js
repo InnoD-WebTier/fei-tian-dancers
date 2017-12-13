@@ -9,7 +9,7 @@ export default class Multimedia extends React.Component {
         const title = 'Multimedia';
         const description = 'Here you can find out more about our past performance pieces:';
         return(
-            <div className="container">
+            <div className="multimedia container">
                 <PageHeader title={title}></PageHeader>
                 <PageDescription description={description}></PageDescription>
                 <div className="content">

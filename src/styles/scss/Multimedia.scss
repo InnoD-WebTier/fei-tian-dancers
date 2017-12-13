@@ -1,0 +1,19 @@
+@import "section.scss";
+
+.multimedia {
+    
+    .page-description {
+        p {}
+    }
+    @media(max-width: 768px) {
+        .menu-container {
+            display: none;
+        }
+
+        .section {
+            display: block;
+            width: 100%;
+            float: none;
+        }
+    }
+}
