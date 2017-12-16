@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet');
+
+
 $red_theme: #9b1919;
 $white: #ffffff;
 
 .page-header-container {
-    width: 100%; 
-    text-align: center;
-
-    .page-header {
-        display: inline-block;
-        padding: 10px;
-        font-size: 24px;
-        border-bottom: 2px solid $red_theme;
-        text-transform: uppercase;
-        font-weight: 500;
-    }
+  width: 100%; 
+  text-align: center;
+  
+  .page-header {
+    font-family: 'Raleway';
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1.5px solid $red_theme;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 }

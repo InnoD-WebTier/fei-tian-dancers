@@ -1,0 +1,20 @@
+.category {
+  box-sizing: border-box;
+  width: 75%;
+  float: right;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 30px; }
+  .category .category__title {
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding-top: 25px; }
+    .category .category__title .underscore {
+      margin-top: 5px;
+      width: 125px;
+      height: 2px;
+      background: #9b1919; }
+  @media (max-width: 768px) {
+    .category {
+      float: none; } }

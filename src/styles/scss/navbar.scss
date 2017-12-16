@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800');
 
-* {
-  font-family: "Raleway", "serif";
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
   height: 64px;
   width: 100%;
-  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 2;
+  border-bottom: solid 1px #dedede;
 }
 
 .ftd-logo {
@@ -24,18 +28,23 @@ nav {
   margin: 20px 30px;
   position: absolute;
   right: 0;
-
+  font-weight: 300;
 }
 
 a {
   text-decoration: none;
   margin: 0 10px;
+  color: #2d2d2d;
 }
 
 a:visited {
   color: inherit;
 }
 
+.selected {
+  font-weight: 400;
+}
+
 .selected:visited {
-  color: darkred;
+  color: #9b1919;
 }

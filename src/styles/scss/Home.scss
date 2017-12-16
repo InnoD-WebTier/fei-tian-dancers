@@ -1,64 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet');
+
 .home {
-    .cover {
-        width: 100%;
-        max-height: 80vh;
-        object-fit: cover;
+  .home__header {
+    position: relative;
+    margin-top: 64px;
+
+    .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background: black;
+      opacity: 0.35;
+    }
+    img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      object-position: 50% 10%;
+      display: block;
     }
 
-    .about, .join, .contact {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 5%;
-        padding-right: 5%;
-        line-height: 1.4;
+    h2 {
+      position: absolute;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
+  }
+  .cover {
+    width: 100%;
+    max-height: 80vh;
+    object-fit: cover;
+  }
+
+  .about, .join, .contact {
+    padding: 50px 15%;
+    line-height: 1.4;
+  }
+  
+  .about { 
+    p:first-child {
+      margin-top: 30px;
+    }
+
+    img {
+      height: 400px;
+      margin: 25px 50%;
+      transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+  }
+
+  .join {
+    background: rgba(33, 2, 2, 0.02);
     
-    .about { color: #4F4F4F; }
+    .join__title {
+      font-weight: 600;
+      font-size: 20px;
+      color: #9B1919;
+      margin: 15px 0;
+    }
 
-    .join {
-        background: rgba(33, 2, 2, 0.02);
+    .join__subtitle {
+      font-weight: 600;
+    }
+
+    .join__text {
+      margin-bottom: 15px;
+    }
+  }
+
+  .contact {
+    text-align: center;
+    
+    .contact__icons {
+        display: inline-block;
+        height: 20px;
+        margin-top: 20px;
         
-        .join__title {
-            font-size: 24px;
-            color: #9B1919;
-            margin-bottom: 15px;
-        }
-
-        .join__subtitle {
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        .join__text {
-            margin-bottom: 15px;
+        .facebook, .youtube, .mail { 
+            height: 100%; 
+            width: auto; 
+            margin-left: 10px;
+            margin-right: 10px;
         }
     }
 
-    .contact {
+    .contact__text {
         text-align: center;
-        
-        .contact__icons {
-            display: inline-block;
-            height: 25px;
-            margin-top: 20px;
-            
-            .facebook, .youtube, .mail { 
-                height: 100%; 
-                width: auto; 
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-        }
+        margin: 20px 0;
+        font-size: 18px;
 
-        .contact__text {
-            text-align: center;
-            margin: 20px 0;
-            font-size: 18px;
-
-            .email {
-                color: rgba(121, 0, 0, 0.3);
-                text-decoration: underline;
-            }
+        .email {
+            color: #d81717;
+            text-decoration: underline;
         }
     }
+  }
 }

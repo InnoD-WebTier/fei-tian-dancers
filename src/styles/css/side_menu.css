@@ -1,8 +1,10 @@
 .menu-container {
   width: 25%;
+  margin-top: -11px;
   background-color: #9b1919;
-  height: 100%;
-  float: left; }
+  height: calc(100vh - 64px);
+  float: left;
+  position: fixed; }
   .menu-container .side-menu-bar {
     list-style-type: none;
     margin: 0;
@@ -22,6 +24,7 @@
           text-transform: uppercase;
           padding: 20px;
           background-color: #9b1919;
-          font-size: 18px; }
+          font-size: 14px;
+          letter-spacing: 0.5px; }
         .menu-container .side-menu-bar li a .side-menu-item:hover {
           background-color: #aa3c3c; }

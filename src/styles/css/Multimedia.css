@@ -4,20 +4,16 @@
   float: right;
   display: inline-block;
   vertical-align: top;
-  padding: 30px; }
-  .section .section__title .title {
-    line-height: 1.4;
-    text-transform: uppercase;
-    font-size: 36px; }
-  .section .section__title .underscore {
-    margin-top: 5px;
-    width: 125px;
-    height: 2px;
-    background: #9b1919; }
+  padding: 20px 30px; }
   .section .section__description {
     margin-top: 10px;
     height: 315px;
     padding-bottom: 10px; }
+    .section .section__description .section__title {
+      font-weight: 700;
+      font-size: 18px; }
+    .section .section__description .section__category {
+      color: #9b1919; }
     .section .section__description .section__description--text {
       width: calc(40% - 15px);
       margin-right: 15px;
@@ -25,7 +21,7 @@
       float: left;
       vertical-align: top;
       line-height: 1.4;
-      font-size: 18px; }
+      font-size: 16px; }
     .section .section__description .section__description--video {
       width: calc(60% - 15px);
       max-width: 600px;
@@ -33,13 +29,18 @@
       float: right;
       display: inline-block;
       vertical-align: top; }
+  .section .section__description__cropped {
+    height: auto; }
+  .section .section__photos__cropped {
+    padding-top: 25px; }
   .section .section__photos {
     clear: both; }
     .section .section__photos .section__photos--photo {
       display: inline-block;
       width: calc((100% - 20px) / 3);
-      height: auto; }
-      .section .section__photos .section__photos--photo.middle {
+      height: 200px;
+      object-fit: cover; }
+      .section .section__photos .section__photos--photo:nth-child(2) {
         margin-left: 10px;
         margin-right: 10px; }
   @media (max-width: 768px) {
@@ -49,13 +50,27 @@
         height: auto; }
         .section .section__description .section__description--text, .section .section__description .section__description--video {
           width: 100%;
+          max-width: none;
           float: none;
           display: block; }
         .section .section__description .section__description--text {
           padding-bottom: 10px; }
         .section .section__description .section__description--video {
           min-height: 275px;
-          margin: 0; } }
+          margin: auto; }
+        .section .section__description .section__description--video__cropped {
+          min-height: 0;
+          height: 0; } }
+
+.multimedia .content {
+  margin-top: 35px; }
+
+@media (min-width: 769px) {
+  .multimedia .page-header-container {
+    width: 75%;
+    margin-left: 25%; }
+  .multimedia .page-description {
+    margin-left: 25%; } }
 
 @media (max-width: 768px) {
   .multimedia .menu-container {

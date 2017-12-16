@@ -55,7 +55,7 @@ const urls = [
   },
   {
     img: Jessica,
-    name: "Anya Fang",
+    name: "Jessica Yu",
     description: "Histosocial",
     key: 8
   },

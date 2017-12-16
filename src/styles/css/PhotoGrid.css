@@ -4,11 +4,10 @@
   display: inline-block;
   margin-right: 2%;
   vertical-align: top;
-  margin-bottom: 1%; }
+  margin-bottom: 3%; }
   @media (max-width: 1150px) {
     .photo__container {
-      height: 35%;
-      margin-bottom: 0.5%; } }
+      height: 35%; } }
   @media (max-width: 1000px) {
     .photo__container {
       height: 35%;
@@ -40,7 +39,8 @@
     text-align: center;
     font-weight: bold; }
   .photo__container .photo__description {
-    text-align: center; }
+    text-align: center;
+    font-weight: 300; }
 
 .photogrid {
   margin-left: 5%;
